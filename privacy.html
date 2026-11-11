@@ -31,13 +31,18 @@
 <p>Photos you delete go to your Recently Deleted album, as with any deletion in iOS. When you compress a video or convert a Live Photo, the new version is saved to your library on your device.</p>
 
 <h2>Information sent to third parties</h2>
-<p>Rollfresh does not run its own servers or analytics. Two services receive limited information:</p>
+<p>Rollfresh does not run its own servers or analytics. Three services receive limited information:</p>
 <table>
   <tr><th>Service</th><th>What it receives</th><th>Why</th></tr>
   <tr>
     <td>Superwall (paywalls and in-app purchases)</td>
     <td>A random app user ID, device details (such as model, iOS version, language, region and app version), subscription and purchase status, how you interact with paywalls, and summary numbers from your scan: how many screenshots, similar photos, large videos and blurry photos were found, how much space they take, and which category you chose to clean first. These are counts and sizes only; no photo, video, file name or contact detail is ever included.</td>
-    <td>To show the subscription screen with your own numbers, process purchases and restores, and measure which version of the screen works better.</td>
+    <td>To show the subscription screen with your own numbers, process purchases and restores, measure which version of the screen works better, and work out whether an install followed a tap on one of our ads (see Meta below).</td>
+  </tr>
+  <tr>
+    <td>Meta (ad measurement, through Superwall)</td>
+    <td>When we run ads on Facebook and Instagram, Superwall sends Meta a record of a few events in the app: a subscription screen was shown, a purchase was started or abandoned, a free trial started, a subscription started, or a one-time purchase was made. Each record carries the random app user ID in hashed form. Rollfresh has no account and never asks for your name, email address or phone number, so none of these is sent. The app does not read your device's advertising identifier (IDFA). No photo, video, contact or scan result is included. These records are sent for everyone who uses the app, not only for people who came from an ad.</td>
+    <td>To measure which ads lead to installs and purchases, and to let Meta show our ads to people who are more likely to be interested.</td>
   </tr>
   <tr>
     <td>Apple</td>
@@ -45,7 +50,7 @@
     <td>Payments, and knowing which ads lead to installs. This does not track you across other apps, and the app does not ask for tracking permission.</td>
   </tr>
 </table>
-<p>Superwall's handling of data is described in <a href="https://superwall.com/privacy">Superwall's privacy policy</a>. We do not sell your information or share it for advertising.</p>
+<p>Superwall's handling of data is described in <a href="https://superwall.com/privacy">Superwall's privacy policy</a>, and Meta's in <a href="https://www.facebook.com/privacy/policy/">Meta's privacy policy</a>. We do not sell your information. The only information shared for advertising is the ad measurement described in the table above.</p>
 
 <h2>Notifications</h2>
 <p>If you allow notifications and start a free trial, the app schedules a local reminder on your device before the trial ends. It is not sent through any server.</p>
@@ -60,7 +65,7 @@
 <ul>
   <li>You can change photo access at any time in iOS Settings → Privacy &amp; Security. Rollfresh works with limited photo access too.</li>
   <li>Deleting the app removes everything it stored on your device.</li>
-  <li>To ask about or request deletion of the purchase and usage information held by Superwall, contact us at the address below.</li>
+  <li>To ask about or request deletion of the purchase and usage information held by Superwall, or about the ad measurement records sent to Meta, contact us at the address below.</li>
 </ul>
 
 <h2>Changes</h2>
